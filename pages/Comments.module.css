@@ -1,0 +1,38 @@
+.details_container {
+  max-width: 500px;
+  margin: auto;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 4rem;
+
+  .details_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 3rem;
+    background-color: #fff;
+    outline: 2px dashed black;
+  }
+  .details_email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 3rem;
+    background-color: #fff;
+    outline: 2px dashed black;
+  }
+
+  .details_body {
+    display: flex;
+    text-align: left;
+    width: 100%;
+    height: 3rem;
+    background-color: #fff;
+    overflow-x: auto;
+    outline: 2px dashed black;
+  }
+}

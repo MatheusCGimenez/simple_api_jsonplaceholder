@@ -1,0 +1,23 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  min-width: 600px;
+  max-width: 600px;
+  margin: auto;
+
+  p{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 1.5rem;
+  }
+
+  textarea {
+    justify-content: center;
+    resize: none;
+    min-height: 200px;
+    border: none;
+    outline: 3px solid #ff0092;
+    font-size: 1.5rem;
+    /* text-align: left; */
+  }
+}

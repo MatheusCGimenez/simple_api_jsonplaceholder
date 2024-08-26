@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Matemasie&display=swap");
+
+.nav {
+  min-height: 6dvh;
+  background-color: #ffca1b;
+  border-bottom: 3px solid #753979;
+  display: flex;
+  gap: 1rem;
+  justify-content: right;
+  align-items: center;
+  padding: 0 2rem;
+
+  a {
+    color: #228dff;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: "Matemasie";
+  }
+}
